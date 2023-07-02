@@ -1,0 +1,47 @@
+.container-list {
+    background-color: white;
+    width: 400px;
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .form-list {
+      list-style: none;
+      padding: 10px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  
+  li {
+      margin-bottom: 10px;
+      color: rgb(118, 119, 120);
+      border-bottom: 1px solid #eae7e7;
+      font-family: 'Labrada', serif;
+      font-family: 'Rajdhani', sans-serif;
+      font-family: 'Shantell Sans', cursive;
+      cursor: pointer;   
+  }
+  
+  li:hover,
+  li:hover button {
+    background-color: rgb(210, 212, 155);
+  }
+  
+  
+  button {
+    display: flex;
+    float: right;
+    border: none;
+    font-size: 15px;
+    color: rgb(118, 119, 120);
+  }
+  
+  .hideIcon {
+    display: none;
+  
+  }
